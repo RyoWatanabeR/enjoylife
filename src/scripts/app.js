@@ -1,19 +1,19 @@
 // このファイルは、ブラウザの現在時刻に基づいてデートプランを表示するロジックを含みます。
 
-// const datePlans = [
-//     { time: "20:00", title: "池袋集合", description: "池袋駅で集合しましょう。", link: "ikebukuro.html" },
-//     { time: "20:30", title: "カフェ？？", description: "カフェでリラックスしましょう。", link: "cafe.html" },
-//     { time: "21:30", title: "秘密の場所", description: "特別な場所に行きましょう。", link: "secret-place.html" },
-//     { time: "22:00", title: "秘密", description: "最後の秘密を楽しみましょう。", link: "secret.html" }
-// ];
-
-// テスト用
 const datePlans = [
-    { time: "10:00", title: "池袋集合", description: "池袋駅で集合しましょう。", link: "ikebukuro.html" },
-    { time: "10:00", title: "カフェ", description: "カフェでリラックスしましょう。", link: "cafe.html" },
-    { time: "10:00", title: "秘密の場所", description: "特別な場所に行きましょう。", link: "secret-place.html" },
-    { time: "10:00", title: "秘密", description: "最後の秘密を楽しみましょう。", link: "secret.html" }
+    { time: "20:00", title: "池袋集合", description: "池袋駅で集合しましょう。", link: "ikebukuro.html" },
+    { time: "20:30", title: "カフェ？？", description: "カフェでリラックスしましょう。", link: "cafe.html" },
+    { time: "21:30", title: "秘密の場所", description: "特別な場所に行きましょう。", link: "secret-place.html" },
+    { time: "22:00", title: "秘密", description: "最後の秘密を楽しみましょう。", link: "secret.html" }
 ];
+
+// // テスト用
+// const datePlans = [
+//     { time: "10:00", title: "池袋集合", description: "池袋駅で集合しましょう。", link: "ikebukuro.html" },
+//     { time: "10:00", title: "カフェ", description: "カフェでリラックスしましょう。", link: "cafe.html" },
+//     { time: "10:00", title: "秘密の場所", description: "特別な場所に行きましょう。", link: "secret-place.html" },
+//     { time: "10:00", title: "秘密", description: "最後の秘密を楽しみましょう。", link: "secret.html" }
+// ];
 
 function displayDatePlans() {
     const currentTime = new Date();
