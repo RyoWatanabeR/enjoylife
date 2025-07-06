@@ -1,0 +1,86 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1; /* レストランの温かみのある背景色 */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe0b2; /* ヘッダーの背景色 */
+    border-bottom: 2px solid #ffab40;
+}
+
+.welcome-message {
+    font-size: 1.8em;
+    color: #d84315; /* 温かみのある文字色 */
+    margin-bottom: 10px;
+}
+
+.menu-title {
+    font-size: 1.5em;
+    color: #6d4c41; /* 落ち着いたブラウン */
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.plan-card {
+    background-color: #fff3e0; /* カードの背景色 */
+    border: 1px solid #ffab40;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.plan-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #bf360c; /* タイトルの文字色 */
+}
+
+.plan-card p {
+    margin: 0 0 10px;
+    font-size: 1em;
+    color: #5d4037; /* 説明文の文字色 */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-active {
+    background-color: #ffab40;
+    color: white;
+}
+
+.btn-disabled {
+    background-color: #ddd;
+    color: #aaa;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffe0b2;
+    border-top: 2px solid #ffab40;
+    font-size: 0.9em;
+    color: #6d4c41;
+}
