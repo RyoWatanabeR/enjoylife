@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     acceptButton.addEventListener("click", () => {
         body.className = "accept-background"; // 背景を変更
-        alert("告白を受け入れました！これからもよろしくお願いします。");
+        const actionsDiv = document.querySelector(".actions");
+        actionsDiv.innerHTML = "<h2>渡邉 凌が彼氏になりました</h2><h2>山下 真莉佳は彼女になりました</h2><h2>これからよろしくお願いします。</h2>"; // メッセージを表示
     });
 
     declineButton.addEventListener("click", () => {

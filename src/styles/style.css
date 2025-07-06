@@ -166,7 +166,8 @@ main p {
 
 /* 告白を受け入れた場合の背景 */
 .accept-background {
-    background-color: #d1f7d6; /* 優しい緑色の背景 */
+    background: url('../img/heart.avif') no-repeat center center fixed; /* 背景画像を設定 */
+    background-size: cover; /* 背景画像を画面全体に拡大 */
     color: #333;
 }
 
@@ -181,4 +182,14 @@ body.default-background h1,
 body.default-background h3,
 body.default-background p {
     color: #ffffff; /* 白文字に設定 */
+}
+
+/* メッセージを中央に配置 */
+.actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 画面全体をカバー */
+    text-align: center; /* テキストを中央揃え */
 }
