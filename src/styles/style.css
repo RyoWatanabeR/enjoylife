@@ -14,36 +14,45 @@ header {
 }
 
 .welcome-message {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #d84315; /* 温かみのある文字色 */
     margin-bottom: 10px;
 }
 
+.menu-title {
+    font-size: 1.5em;
+    color: #6d4c41; /* 落ち着いたブラウン */
+    margin: 20px auto; /* 上下に余白を追加し、中央に配置 */
+    text-align: center; /* テキストを中央揃え */
+}
+
 main {
     padding: 20px;
-    text-align: center;
 }
 
-.coming-soon {
-    margin-top: 50px;
+.plans-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 中央に配置 */
+    gap: 20px;
 }
 
-.btn {
-    display: inline-block;
+.plan {
+    text-align: center; /* テキストを中央揃え */
+    font-size: 1.2em;
+    background-color: #fff3e0; /* カードの背景色 */
+    border: 1px solid #ffab40;
+    border-radius: 8px;
     padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 20px;
+    width: 300px; /* カードの幅を固定 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.btn-active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.btn-disabled {
-    background-color: #ddd;
-    color: #aaa;
-    cursor: not-allowed;
+.header-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

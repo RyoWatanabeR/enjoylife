@@ -10,7 +10,7 @@
 // テスト用
 const datePlans = [
     { time: "10:00", title: "池袋集合", description: "池袋駅で集合しましょう。", link: "ikebukuro.html" },
-    { time: "10:00", title: "カフェ？？", description: "カフェでリラックスしましょう。", link: "cafe.html" },
+    { time: "10:00", title: "カフェ", description: "カフェでリラックスしましょう。", link: "cafe.html" },
     { time: "10:00", title: "秘密の場所", description: "特別な場所に行きましょう。", link: "secret-place.html" },
     { time: "10:00", title: "秘密", description: "最後の秘密を楽しみましょう。", link: "secret.html" }
 ];
@@ -26,16 +26,16 @@ function displayDatePlans() {
 
     datePlans.forEach(plan => {
         const planTime = plan.time;
-        const planElement = document.createElement('li');
+        const planElement = document.createElement('h5');
         planElement.classList.add('plan');
 
         if (currentFormattedTime >= planTime) {
             planElement.innerHTML = `
-                ${plan.time}: <a href="${plan.link}" style="color: blue;">${plan.title}</a>
+                ${plan.time}： <a href="${plan.link}" style="color: blue;">${plan.title}</a>
             `;
         } else {
             planElement.innerHTML = `
-                ${plan.time}: <span style="color: gray;">${plan.title} (未解放)</span>
+                ${plan.time}： <span style="color: gray;">${plan.title} (未解放)</span>
             `;
         }
 
