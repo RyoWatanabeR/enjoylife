@@ -160,8 +160,7 @@ main p {
     color: #333;
     font-family: 'Georgia', serif;
     margin: 0;
-    padding: 0; /* 余白を削除して背景が見切れないようにする */
-    height: 100vh; /* 背景を画面全体に適用 */
+    padding: 20px;
     text-align: center;
 }
 
