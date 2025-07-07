@@ -7,7 +7,7 @@ const datePlans = [
     { time: "22:00", title: "秘密", description: "最後の秘密を楽しみましょう。", link: "secret.html" }
 ];
 
-// // テスト用
+// テスト用
 // const datePlans = [
 //     { time: "00:01", title: "池袋集合", description: "池袋駅で集合しましょう。", link: "ikebukuro.html" },
 //     { time: "00:01", title: "カフェ", description: "カフェでリラックスしましょう。", link: "cafe.html" },
