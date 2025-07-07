@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "img/gorori.jpg",
         "img/ago.jpg",
         "img/okini.jpg",
-        "img/kami.jpg"
+        "img/kami.jpg",
+        "img/ele.jpg",
+        "img/hand.jpg",
+        "img/dogmari.jpg"
     ];
     let currentImageIndex = 0;
 
