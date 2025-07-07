@@ -218,3 +218,67 @@ body.night-sky header {
     border: none; /* 不要な枠線を削除 */
     padding: 0; /* 不要な余白を削除 */
 }
+
+/* ゲームコンテナ */
+.game-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* ブロックのスタイル */
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: #ffcc00; /* 黄色い背景 */
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* 「？」のサイズ */
+    font-weight: bold; /* 「？」を太字に */
+    color: #333; /* 「？」の文字色 */
+    border: 2px solid #e0a800; /* 枠線を追加 */
+    border-radius: 5px; /* 角を丸くする */
+}
+
+/* マリオの画像スタイル */
+.mario {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* マリオのジャンプアニメーション */
+.mario.jump {
+    animation: jump 0.5s ease-in-out;
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 100px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+/* ギャラリー画像のスタイル */
+.gallery-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
