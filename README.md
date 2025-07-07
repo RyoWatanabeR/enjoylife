@@ -1,41 +1,50 @@
-# Date Planner App
+# ワタナベ専用デートアプリ
 
-## Overview
-The Date Planner App is a simple web application that allows users to view and access various date plans based on the current browser time. The application is built using HTML, CSS, and JavaScript.
+## 概要
+デートプランナーアプリは、現在のブラウザ時間に基づいてさまざまなデートプランを表示し、アクセスできるシンプルなウェブアプリケーションです。このアプリは HTML、CSS、JavaScript を使用して構築されています。
 
-## Project Structure
+## プロジェクト構成
 ```
 date-planner-app
 ├── src
-│   ├── index.html        # Main HTML document
+│   ├── index.html        # メインのHTMLドキュメント
+│   ├── secret.html       # 告白画面のHTMLドキュメント
+│   ├── secret-place.html # 秘密の場所画面のHTMLドキュメント
 │   ├── styles
-│   │   └── style.css     # Styles for the application
+│   │   └── style.css     # アプリのスタイル
 │   ├── scripts
-│   │   └── app.js        # JavaScript logic for date plans
-├── README.md             # Project documentation
+│   │   ├── app.js        # デートプランのロジックを含むJavaScript
+│   │   └── secret.js     # 告白画面のロジックを含むJavaScript
+│   ├── images
+│   │   ├── tokyo.avif    # デフォルト背景画像
+│   │   ├── heart.avif    # 告白を受け入れた場合の背景画像
+│   │   └── marika1.jpg   # 秘密の場所の画像
+├── README.md             # プロジェクトのドキュメント
 ```
 
-## Getting Started
+## 始め方
 
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, etc.)
+### 必要条件
+- 最新のウェブブラウザ（Chrome、Firefox、Safari など）
 
-### Installation
-1. Clone the repository or download the project files.
-2. Navigate to the `date-planner-app/src` directory.
+### インストール方法
+1. リポジトリをクローンするか、プロジェクトファイルをダウンロードしてください。
+2. `date-planner-app/src` ディレクトリに移動してください。
 
-### Running the Application
-1. Open `index.html` in your web browser.
-2. The application will display a list of date plans.
-3. Based on the current browser time, you can access the corresponding date plan screens.
+### アプリの実行方法
+1. `index.html` をウェブブラウザで開いてください。
+2. アプリがデートプランのリストを表示します。
+3. 現在のブラウザ時間に基づいて、対応するデートプラン画面にアクセスできます。
 
-## Features
-- Displays a list of date plans.
-- Access to each plan's screen based on the current time.
-- Responsive design for various screen sizes.
+## 機能
+- デートプランのリストを表示。
+- 現在の時間に基づいて各プラン画面にアクセス可能。
+- 告白画面で選択肢に応じて背景やメッセージが変化。
+- 秘密の場所画面で流れ星の演出を表示。
+- さまざまな画面サイズに対応したレスポンシブデザイン。
 
-## Contributing
-Feel free to submit issues or pull requests for improvements or bug fixes.
+## 貢献
+改善やバグ修正のための問題報告やプルリクエストを歓迎します。
 
-## License
-This project is open-source and available under the MIT License.
+## ライセンス
+このプロジェクトはオープンソースであり、MITライセンスの下で利用可能です。
